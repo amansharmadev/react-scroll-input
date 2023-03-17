@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
-import { debounce } from '../../utils';
+import { debounce } from '../../utils/debounce';
 
 const OuterContainer = styled.div`
   overflow-y: scroll;
